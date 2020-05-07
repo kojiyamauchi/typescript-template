@@ -3,8 +3,8 @@
 */
 
 // Import Modules.
-import Module3 from '@/base/Modules/Module3'
-import Module4 from '@/base/Modules/Module4'
+import Module3 from '@/Modules/Module3'
+import Module4 from '@/Modules/Module4'
 
 // Import Interface.
 // Add Path Here.

@@ -5,7 +5,7 @@
 */
 
 // Import Modules.
-import App from '@/base/Apps/AppCore'
+import App from '@/Apps/AppCore'
 
 // Created Instance.
 const app = new App()
