@@ -14,7 +14,7 @@ export default class AppGlobal {
   private module1: Module1
   private module2: Module2
 
-  private constructor() {
+  public constructor() {
     this.module1 = new Module1('Module1!')
     this.module2 = new Module2('Module2!')
   }

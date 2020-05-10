@@ -14,7 +14,7 @@ export default class AppCore {
   private module3: Module3
   private module4: Module4
 
-  private constructor() {
+  public constructor() {
     this.module3 = new Module3('Module3!')
     this.module4 = new Module4('Module4!')
   }

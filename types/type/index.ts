@@ -1,3 +1,3 @@
-type AddName = {
+// type AddName = {
   // Add Member.
-}
+// }
