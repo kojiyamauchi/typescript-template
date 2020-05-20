@@ -6,13 +6,10 @@
 import Module3 from '@/Modules/Module3'
 import Module4 from '@/Modules/Module4'
 
-// Import Interface.
-// Add Path Here.
-
 export default class AppCore {
   // Types.
-  private module3: Module3
-  private module4: Module4
+  private readonly module3: Module3
+  private readonly module4: Module4
 
   public constructor() {
     this.module3 = new Module3('Module3!')

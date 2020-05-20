@@ -6,13 +6,10 @@
 import Module1 from '@/Modules/Module1'
 import Module2 from '@/Modules/Module2'
 
-// Import Interface.
-// Add Path Here.
-
 export default class AppGlobal {
   // Types.
-  private module1: Module1
-  private module2: Module2
+  private readonly module1: Module1
+  private readonly module2: Module2
 
   public constructor() {
     this.module1 = new Module1('Module1!')

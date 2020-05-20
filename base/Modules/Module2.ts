@@ -5,12 +5,9 @@
 // Import Modules.
 // Add Path Here.
 
-// Import Interface.
-// Add Path Here.
-
 export default class Module2 {
   // Types.
-  private letter: string
+  private readonly letter: string
 
   public constructor(arg: string) {
     // Add Constructor.
