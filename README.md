@@ -6,6 +6,7 @@ Root
 |     |- *.js -> Creates Entry Point for Each View Page.
 |     |- /Apps -> App**.ts is Choose Required Modules.ts for Each Pages. And Pass to *.js
 |     |- /Modules -> Various Modules.ts
+|     |- /SubModules -> When Create Sub Modules.
 |
 |- /types -> Type Files. / Declaration・Type・Interface・Enum
 |
