@@ -6,7 +6,11 @@ Root
 |     |- *.js -> Creates Entry Point for Each View Page.
 |     |- /Apps -> App**.ts is Choose Required Modules.ts for Each Pages. And Pass to *.js
 |     |- /Modules -> Various Modules.ts
-|     |- /SubModules -> When Create Sub Modules.
+|     |     |- /Globals -> Set Modules to Be Used on All Pages.( It Will Always be Imported into AppGlobal.ts.)
+|     |     |- /Commons -> Set Modules to Be Used on Multiple Pages.
+|     |     |- /Privates -> Set Modules to Be Used on Single Pages.
+|     |
+|     |- /SubModules -> When Create Sub Modules.( Like a Mixins.)
 |
 |- /types -> Type Files. / Declaration・Type・Interface・Enum
 |
