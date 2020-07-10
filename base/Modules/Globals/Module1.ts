@@ -1,11 +1,11 @@
 /*
- Module2.ts
+ Global Module1.ts
 */
 
 // Import Modules.
 // Add Path Here.
 
-export default class Module2 {
+export default class Module1 {
   // Types.
   private readonly letter: string
 

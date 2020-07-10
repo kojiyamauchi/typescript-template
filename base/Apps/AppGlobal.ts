@@ -3,22 +3,22 @@
 */
 
 // Import Modules.
-import Module1 from '@/Modules/Module1'
-import Module2 from '@/Modules/Module2'
+import GlobalModule1 from '@/Modules/Globals/Module1'
+import GlobalModule2 from '@/Modules/Globals/Module2'
 
 export default class AppGlobal {
   // Types.
-  private readonly module1: Module1
-  private readonly module2: Module2
+  private readonly globalModule1: GlobalModule1
+  private readonly globalModule2: GlobalModule2
 
   public constructor() {
-    this.module1 = new Module1('Module1!')
-    this.module2 = new Module2('Module2!')
+    this.globalModule1 = new GlobalModule1('Global Module1!')
+    this.globalModule2 = new GlobalModule2('Global Module2!')
   }
 
   public init(): void {
-    this.module1.core()
-    this.module2.core()
+    this.globalModule1.core()
+    this.globalModule2.core()
   }
 
   public domContentLoaded(): void {

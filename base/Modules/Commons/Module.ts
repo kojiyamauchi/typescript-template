@@ -1,11 +1,11 @@
 /*
- Module4.ts
+ Common Module.ts
 */
 
 // Import Modules.
 // Add Path Here.
 
-export default class Module4 {
+export default class Module {
   // Types.
   private readonly letter: string
 

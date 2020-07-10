@@ -3,22 +3,22 @@
 */
 
 // Import Modules.
-import Module3 from '@/Modules/Module3'
-import Module4 from '@/Modules/Module4'
+import CommonModule from '@/Modules/Commons/Module'
+import PrivateModule from '@/Modules/Privates/Module'
 
 export default class AppCore {
   // Types.
-  private readonly module3: Module3
-  private readonly module4: Module4
+  private readonly commonModule: CommonModule
+  private readonly privateModule: PrivateModule
 
   public constructor() {
-    this.module3 = new Module3('Module3!')
-    this.module4 = new Module4('Module4!')
+    this.commonModule = new CommonModule('Common Module!')
+    this.privateModule = new PrivateModule('Private Module!')
   }
 
   public init(): void {
-    this.module3.core()
-    this.module4.core()
+    this.commonModule.core()
+    this.privateModule.core()
   }
 
   public domContentLoaded(): void {
